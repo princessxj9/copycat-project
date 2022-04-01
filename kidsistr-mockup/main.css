@@ -1,0 +1,97 @@
+/*whole thing*/
+body {
+    background:rgb(191, 209, 243);
+}
+* {
+
+   box-sizing: border-box;
+}
+/*container*/
+.container {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*header*/
+.h{  
+    border: none;
+    text-align: center;
+}
+/*main with shirts*/
+div {
+    margin: 1.5em;
+}
+h4 {
+    margin: .5em;
+}
+
+.m {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+}
+/*hoodie*/
+.hoodie > img {
+    width: 370px;   
+}
+.hoodie{
+    text-align: center;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: rgb(185, 49, 25);
+}
+/*longsleeve*/
+.long > img {
+    width: 370px;   
+}
+.long{
+    text-align: center;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(185, 49, 25);
+}
+/*short*/
+.short > img {
+    width: 370px;   
+}
+.short{
+    text-align: center;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(185, 49, 25);
+}
+/*footer*/
+
+.f {
+    min-height: 5vh;
+    font-family:  sans-serif;
+    color: rgb(185, 49, 25);
+}
+
+h3,h6 {
+    margin: .2em;
+}
+
+h6{
+    font-weight: lighter;
+}
+
+
+@media (min-width: 600px) {
+    .m {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+
+
+
+
+
+
+  
+
